@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Manager">
+  <grid id="27dc6" binding="control" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="19" width="740" height="683"/>
+    </constraints>
+    <properties>
+      <background color="-919044"/>
+      <opaque value="true"/>
+      <preferredSize width="850" height="400"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <grid id="5c10" binding="p2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="3" column="5" row-span="10" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="400" height="300"/>
+          <minimumSize width="400" height="300"/>
+          <preferredSize width="400" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="51ce0" class="javax.swing.JLabel" binding="UPC">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Please Enter UPC code:"/>
+        </properties>
+      </component>
+      <component id="6a1d2" class="javax.swing.JLabel" binding="DateofToday">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="2" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Tsukushi A Round Gothic" size="14"/>
+          <text value="Date of Today："/>
+        </properties>
+      </component>
+      <hspacer id="86fc7">
+        <constraints>
+          <grid row="2" column="0" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="19f77">
+        <constraints>
+          <grid row="2" column="8" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+      </hspacer>
+      <component id="3ffeb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Tsukushi A Round Gothic" size="16"/>
+          <text value="Manager Controller"/>
+        </properties>
+      </component>
+      <hspacer id="dd99e">
+        <constraints>
+          <grid row="7" column="2" row-span="7" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="20.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="39e39" class="javax.swing.JTextField" binding="upcs">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="60c1e" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <preferredSize width="50" height="30"/>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="fc26e" class="javax.swing.JButton" binding="changeDataButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <text value="Change Data"/>
+        </properties>
+      </component>
+      <component id="c00a6" class="javax.swing.JButton" binding="totalRevenueButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <text value="Total Revenue"/>
+        </properties>
+      </component>
+      <component id="2dc2c" class="javax.swing.JButton" binding="totalProfitButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <text value="Total Profit"/>
+        </properties>
+      </component>
+      <component id="bcaa9" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="20" right="0" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <vspacer id="4eab1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="30"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d7afa">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="24e79">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d1d2c">
+        <constraints>
+          <grid row="14" column="5" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="98097">
+        <constraints>
+          <grid row="2" column="4" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+      </hspacer>
+      <component id="30622" class="javax.swing.JButton" binding="listOfPendingOrdersButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <text value="List of Pending Orders"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
